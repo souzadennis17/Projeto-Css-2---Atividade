@@ -1,0 +1,20 @@
+NARUTO SHIPPUDEN — Projeto HTML + CSS básico
+
+Arquivos:
+- index.html: página inicial
+- personagens.html: personagens
+- vilas.html: vilas ninja
+- jutsus.html: técnicas ninja
+- organizacoes.html: organizações
+- historia.html: história de Naruto
+- style.css: estilos compartilhados
+
+Como abrir:
+1. Extraia todos os arquivos para a mesma pasta.
+2. Abra index.html no navegador.
+3. Use os menus para navegar entre as seis páginas.
+
+O CSS foi mantido simples, usando propriedades abordadas na aula:
+color, background-color, padding, margin, font-size, text-align,
+text-decoration, display, width, min-height, border e border-bottom.
+A tag meta viewport está presente em todas as páginas.
