@@ -1,0 +1,87 @@
+body {
+    color: #333333;
+    background-color: #F0F0F0;
+    margin: 0;
+    font: 16px Arial, sans-serif;
+}
+p {
+    line-height: 30px;
+}
+#cabecalho {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+#cabecalho h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#cabecalho p {
+    text-transform: capitalize;
+}
+#menu-superior {
+    background-color: #34495E;
+    padding: 10px 20px;
+    text-align: center;
+}
+#menu-superior a {
+    color: #FFFFFF;
+    margin-right: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#layout {
+    width: 100%;
+    background-color: #F9F9F9;
+}
+#lateral {
+    width: 22%;
+    background-color: #E8E8E8;
+    padding: 15px;
+}
+#lateral h2 {
+    color: #2C3E50;
+    font-size: 1.2rem;
+}
+#lateral a {
+    color: #2C3E50;
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid #CCCCCC;
+    text-decoration: none;
+}
+#conteudo {
+    padding: 25px 30px;
+    min-height: 400px;
+}
+#conteudo h2 {
+    color: #C0392B;
+}
+#conteudo h3 {
+    color: #2C3E50;
+}
+#conteudo p {
+    text-transform: none;
+}
+.destaque {
+    background-color: #FDEBD0;
+    border: 1px solid #E67E22;
+    padding: 15px;
+    margin: 15px 0;
+}
+.cartao {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 12px;
+    margin: 12px 0;
+}
+#rodape {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+#rodape p {
+    text-transform: lowercase;
+}

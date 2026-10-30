@@ -1,9 +1,11 @@
-/* CSS usado apenas com propriedades vistas na aula */
 body {
     color: #333333;
     background-color: #F0F0F0;
     margin: 0;
-    font-size: 16px;
+    font: 16px Arial, sans-serif;
+}
+p {
+    line-height: 30px;
 }
 #cabecalho {
     background-color: #2C3E50;
@@ -13,6 +15,10 @@ body {
 }
 #cabecalho h1 {
     font-size: 2rem;
+    text-transform: uppercase;
+}
+#cabecalho p {
+    text-transform: capitalize;
 }
 #menu-superior {
     background-color: #34495E;
@@ -23,6 +29,7 @@ body {
     color: #FFFFFF;
     margin-right: 12px;
     text-decoration: none;
+    text-transform: capitalize;
 }
 #layout {
     width: 100%;
@@ -54,6 +61,9 @@ body {
 #conteudo h3 {
     color: #2C3E50;
 }
+#conteudo p {
+    text-transform: none;
+}
 .destaque {
     background-color: #FDEBD0;
     border: 1px solid #E67E22;
@@ -71,4 +81,7 @@ body {
     color: #FFFFFF;
     text-align: center;
     padding: 15px;
+}
+#rodape p {
+    text-transform: lowercase;
 }

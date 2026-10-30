@@ -7,14 +7,19 @@ Arquivos:
 - jutsus.html: técnicas ninja
 - organizacoes.html: organizações
 - historia.html: história de Naruto
-- style.css: estilos compartilhados
+- css/index.css: estilos da página inicial
+- css/personagens.css: estilos da página de personagens
+- css/vilas.css: estilos da página de vilas ninja
+- css/jutsus.css: estilos da página de jutsus
+- css/organizacoes.css: estilos da página de organizações
+- css/historia.css: estilos da página de história
 
 Como abrir:
 1. Extraia todos os arquivos para a mesma pasta.
 2. Abra index.html no navegador.
 3. Use os menus para navegar entre as seis páginas.
 
-O CSS foi mantido simples, usando propriedades abordadas na aula:
-color, background-color, padding, margin, font-size, text-align,
-text-decoration, display, width, min-height, border e border-bottom.
+Cada página HTML possui seu próprio arquivo CSS externo. Os estilos usam
+propriedades abordadas em aula, incluindo line-height: 30px, text-transform
+(uppercase, lowercase, capitalize e none) e a forma abreviada font.
 A tag meta viewport está presente em todas as páginas.
